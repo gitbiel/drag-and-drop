@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container-cards">
+    <button onclick="createCard()">Criar card</button>
+    <div class="container-cards_column" id="column-todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <!-- <div id="card" ondragstart="drag(event)"></div> -->
+    </div>
+    <div class="container-cards_column" id="column-doing" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="container-cards_column" id="column-done" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+</body>
+</html>

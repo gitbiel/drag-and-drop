@@ -1,0 +1,31 @@
+.container-cards {
+  width: 100vw;
+  height: 100vh;
+  background-color: #242323;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.container-cards_column {
+  background-color: #868686;
+  width: 160px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 20px;
+  gap: 8px;
+}
+
+.card {
+  width: 80px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: #d1d1d1;
+  cursor: pointer;
+}
